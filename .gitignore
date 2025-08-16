@@ -1,0 +1,45 @@
+# Node
+node_modules/
+
+# Dependency directories
+**/node_modules/
+
+# Build output
+/build/
+dist/
+coverage/
+*.log
+
+# dotenv environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.local
+*.cache
+*.bak
+
+# Prisma
+**/prisma/dev.db
+**/prisma/*.sqlite
+
+# Ignore lock files (optional, if you want to commit lock files, remove these)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore backend and frontend .env files
+agent-studio-web/backend/.env
+agent-studio-web/.env
